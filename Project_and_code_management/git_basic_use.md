@@ -1,6 +1,17 @@
 # 基本概述  
 https://www.cnblogs.com/jamiechoo/articles/18408791
 
+
+### Fork and Pull Request
+- 先在github上fork一个项目，然后clone到本地
+- 然后添加上游仓库 git remote add upstream xxxx.git
+- 然后创建分支： git checkout -b xxx/xxxxx
+- 在开始修改前同步上游更新，git fetch upstream, git checkout master, git merge upstream/master, git push origin master， git checkout yourbranch, git merge master  
+- 然后开始修改，修改完后，git add . , git commit -m  'feat:xxxxx',  git push origin xxx/xxxx
+- 然后回到自己fork的界面，创建pull request
+
+
+
 ### clone
 
 
