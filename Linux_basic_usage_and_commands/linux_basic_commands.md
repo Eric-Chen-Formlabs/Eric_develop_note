@@ -120,6 +120,7 @@ basic linux commands
 *   **du (disk usage)**: 估算文件和目录的磁盘使用空间。
     *   `du -sh /path/to/dir`: 查看指定目录的总大小。
     *   `du -h --max-depth=1 .`: 查看当前目录下各子目录的大小。
+    *   `du -ah . | sort -h` : 查看当前所有文件和目录的大小
 
 *   **uptime**: 显示系统运行了多长时间、当前用户数以及系统平均负载。
 
